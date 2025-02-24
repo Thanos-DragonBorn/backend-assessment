@@ -47,6 +47,7 @@ public class DemoApplication {
        SpringApplication.run(DemoApplication.class, args);
    }
 }
+```
 
 ## You can use Spring Initializr to bootstrap your project with the following dependencies:
 - Spring Web

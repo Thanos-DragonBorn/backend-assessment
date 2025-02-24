@@ -1,9 +1,3 @@
-
----
-
-### `backend-java/README.md`
-
-```markdown
 # Spring Boot Backend Service - Java Exercise
 
 This exercise is designed for Java proficient applicants to build a Spring Boot application that demonstrates your ability to create a RESTful API, integrate with an in-memory database, return appropriate HTTP response codes, and secure your endpoints with Spring Security.

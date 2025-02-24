@@ -15,7 +15,7 @@ This directory is for the implementation of a RESTful API to manage a resource o
 
 - **Data Validation & Error Handling:** Validate incoming data and return appropriate HTTP status codes (e.g., 400 Bad Request, 404 Not Found).
 
-- **Language Choice:** Use **Python**, **Java**, or **C#**—choose the language you’re most comfortable with (except Java if you opt for the Spring Boot exercise in the `backend-java/` directory).
+- **Language Choice:** Use **Python** or **C#**—choose the language you’re most comfortable with (The Java/Spring Boot exercise is in the `backend-java/` directory).
 
 ## Starter Code (Python Example)
 

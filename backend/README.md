@@ -1,21 +1,21 @@
 # Backend Service Implementation
 
-This directory is for the implementation of the backend service for the assessment.
+This directory is for the implementation of a RESTful API to manage a resource of your choice (e.g., "Tasks", "Notes", or "Products").
 
 ## Instructions
 
-- **API Endpoints:** Implement a RESTful API with the following endpoints:
+- **API Endpoints:** Implement the following endpoints:
   - **GET `/items`**: Retrieve a list of items.
   - **GET `/items/{id}`**: Retrieve a specific item by its unique ID.
   - **POST `/items`**: Create a new item.
   - **PUT `/items/{id}`**: Update an existing item.
   - **DELETE `/items/{id}`**: Delete an item.
 
-- **Database Integration:** Connect your service to a database. You can use an in-memory database (like SQLite for Python) or a file-based database. Seed the database with a few initial records.
+- **Database Integration:** Connect your service to a database. You may use an in-memory database (like SQLite for Python) or a file-based database. Seed the database with a few initial records.
 
-- **Data Validation & Error Handling:** Validate incoming data and return appropriate HTTP status codes.
+- **Data Validation & Error Handling:** Validate incoming data and return appropriate HTTP status codes (e.g., 400 Bad Request, 404 Not Found).
 
-- **Language Choice:** Use **Python**, **Java**, or **C#**.
+- **Language Choice:** Use **Python**, **Java**, or **C#**—choose the language you’re most comfortable with (except Java if you opt for the Spring Boot exercise in the `backend-java/` directory).
 
 ## Starter Code (Python Example)
 
